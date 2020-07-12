@@ -178,7 +178,7 @@ export default {
       display: inline-block;
       border: 1px solid grey;
       line-height: .5rem;
-      margin: .1rem .2rem 0 .2rem;
+      margin: .3rem .2rem 0 .2rem;
       border-radius: .1rem;
       span{
         line-height: .5rem;
@@ -198,6 +198,9 @@ export default {
     .body{
     background-color: white;
     padding-bottom: .15rem;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 15.5rem;
   }
 }
 .header {
