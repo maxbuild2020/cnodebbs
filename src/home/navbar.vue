@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="narbar">
-      <div class="container">
-        <div class="log">
-          <a href="/"><img src="https://static2.cnodejs.org/public/images/cnodejs_light.svg" alt=""></a>
+      <div class="container p-r">
+        <div class="logo">
+          <a href="/"><div class="logo-img"></div> </a>
         </div>
-        <form class="search">
-          <input type="text" class="input"></form>
+        <div class="search">
+          <input type="text" class="input"></div>
         <div class="nav"><ul>
           <li><router-link to="/">首页</router-link></li>
           <li><router-link to="/getstart">新手入门</router-link></li>
@@ -59,15 +59,20 @@ export default {
   padding: .1rem 1.5rem;
   height: .8rem;
   line-height: .8rem;
+  overflow: hidden;
 }
-.log{
+.logo{
   width: 2.4rem;
   padding: .1rem .5rem .1rem 0;
   float: left;
+  .logo-img{
+    vertical-align:initial;
+    width: 128px;
+    height: 28px;
+    background: url("https://static2.cnodejs.org/public/images/cnodejs_light.svg") no-repeat;
+  }
 }
-.log img{
-  vertical-align:initial
-}
+
 .search{
   float: left;
   padding-top: .01rem ;

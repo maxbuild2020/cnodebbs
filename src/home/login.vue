@@ -7,12 +7,12 @@
           <label name="username" for="username">用户名</label>
           <input v-model="username" type="text" id="username" pattern="^[a-zA-Z0-9\u4E00-\u9FA5_]{3,10}$" placeholder="请输入用户名" title="
           最短4-10位 首字母只能是大小写字母" required>
-          <span><img src="@/assets/check.png" alt=""></span>
+          <span><img src="@/assets/check.jpg" alt=""></span>
         </div>
         <div class="wrapper">
           <label for="password">密码</label>
           <input v-model="password" type="password" id="password" pattern="\w{6,10}" placeholder="请输入密码" required>
-        <span><img src="@/assets/check.png" alt=""></span>
+        <span><img src="@/assets/check.jpg" alt=""></span>
         </div>
         
         <div class="wrapper" >

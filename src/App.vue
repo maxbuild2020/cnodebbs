@@ -38,6 +38,6 @@ html{
   flex-direction: column;
 }
 .app-content {
-  flex: 1;
+  flex-grow: 1;
 }
 </style>
